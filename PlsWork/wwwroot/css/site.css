@@ -14,5 +14,24 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #CEE5F2;
+}
+.nav-color {
+    background-color: #7C98B3;
+}
+.nav-link{
+    color:#FFFFFF !important;
+}
+.smooth-box {
+    background-color: #ACCBE1;
+    padding: 3%;
+    border: solid 2px #637081;
+    border-radius: 25px 25px 25px 25px;
+    margin: 1%
+}
+.box-n-box {
+    border: solid 2px #637081;
+    border-radius: 25px 25px 25px 25px;
+    margin: 1%
 }

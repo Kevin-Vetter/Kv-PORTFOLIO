@@ -13,8 +13,8 @@
         </div>
     </div>
     <div class="col-lg-6 col-sm-12 text-center mt-lg-0 mt-5">
-        <p class="display-6">Praise the almight dev</p>
-        <img class="border border-primary rounded-circle" src="/pics/Unknown.png" height="150" width="150" />
+        <p class="display-6">Praise the almighty dev</p>
+        <img class="border border-light rounded-circle" src="/pics/Unknown.png" height="150" width="150" />
     </div>
 </div>
 <br />
@@ -23,9 +23,9 @@
 <br />
 <br />
 <br />
-<div class="row text-center">
+<div class="row text-center gap-0 smooth-box">
     <div class="col-sm-12 col-md-4">
-        <img src="/pics/icons/dot-net.png" class="mb-3" height="100" width="100"/>
+        <img src="/pics/icons/dot-net.png" class="mb-3" height="100" width="100" onclick="redirectWithScroll('dot-net')" />
         <p>
             Nunc sit amet ligula euismod, varius eros id,
             volutpat ante. Phasellus id justo in dui condimentum
@@ -38,8 +38,8 @@
         </p>
     </div>
     <div class="col-sm-12 col-md-4">
-        <img src="/pics/icons/html.png" class="mb-3" height="100" width="100"/>
-         <p>
+        <img src="/pics/icons/html.png" class="mb-3" height="100" width="100" onclick="redirectWithScroll('html')"/>
+        <p>
             Nunc sit amet ligula euismod, varius eros id,
             volutpat ante. Phasellus id justo in dui condimentum
             bibendum. Praesent non euismod velit. Cras dictum
@@ -51,8 +51,8 @@
         </p>
     </div>
     <div class="col-sm-12 col-md-4">
-        <img src="/pics/icons/Javascript.png" class="mb-3" height="100" width="100"/>
-         <p>
+        <img src="/pics/icons/Javascript.png" class="mb-3" height="100" width="100" onclick="redirectWithScroll('js')" />
+        <p>
             Nunc sit amet ligula euismod, varius eros id,
             volutpat ante. Phasellus id justo in dui condimentum
             bibendum. Praesent non euismod velit. Cras dictum
@@ -64,3 +64,10 @@
         </p>
     </div>
 </div>
+<script type="text/javascript">
+    //To scroll to a specific element, use document.getElementById ('ID').scrollIntoView ().
+    function redirectWithScroll(id){
+        sessionStorage.setItem('ScrollTo', id)
+        location.href="Projects"
+    }
+</script>

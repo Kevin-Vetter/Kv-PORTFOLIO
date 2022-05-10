@@ -1,0 +1,59 @@
+﻿@page
+@model PlsWork.Pages.ProjectsModel
+@{
+    ViewData["Title"] = "Projects";
+}
+<div onpageshow="scrollToElement()">
+    <div class="text-center mt-5 mb-1">
+        <img id="dot-net" src="/pics/icons/dot-net.png" height="100" width="100" />
+        <div class="smooth-box">
+                <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /><br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+    <div class="text-center mt-5 mb-1">
+        <img id="html" src="/pics/icons/html.png" height="100" width="100" />
+        <div class="smooth-box">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /><br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+    <div class="text-center mt-5 mb-1">
+        <img id="js" src="/pics/icons/Javascript.png" height="100" width="100" />
+        <div class="smooth-box">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /><br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var element = sessionStorage.getItem('ScrollTo')
+    document.getElementById(element).scrollIntoView({behavior: 'smooth'})
+</script>
