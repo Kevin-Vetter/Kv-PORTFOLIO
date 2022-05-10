@@ -13,8 +13,8 @@
         </div>
     </div>
     <div class="col-lg-6 col-sm-12 text-center mt-lg-0 mt-5">
-        <p class="display-6">Praise the almighty dev</p>
-        <img class="border border-light rounded-circle" src="/pics/Unknown.png" height="150" width="150" />
+        <h1 class="display-6">Praise the almighty dev</h1>
+        <img class="border border-light rounded-circle" src="/pics/Unknown.png" height="150" width="150" onclick="location.href='Contact'" />
     </div>
 </div>
 <br />
@@ -38,7 +38,7 @@
         </p>
     </div>
     <div class="col-sm-12 col-md-4">
-        <img src="/pics/icons/html.png" class="mb-3" height="100" width="100" onclick="redirectWithScroll('html')"/>
+        <img src="/pics/icons/www.png" class="mb-3" height="100" width="100" onclick="redirectWithScroll('www')"/>
         <p>
             Ut at elementum lacus. Nunc consequat ut neque at
             sollicitudin. Vivamus vel lorem tincidunt, pellentesque
@@ -50,7 +50,7 @@
         </p>
     </div>
     <div class="col-sm-12 col-md-4">
-        <img src="/pics/icons/Javascript.png" class="mb-3" height="100" width="100" onclick="redirectWithScroll('js')" />
+        <img src="/pics/icons/py.png" class="mb-3" height="100" width="100" onclick="redirectWithScroll('py')" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           In faucibus tellus a maximus elementum. Lorem ipsum dolor
@@ -64,7 +64,7 @@
     </div>
 </div>
 <script type="text/javascript">
-    //To scroll to a specific element, use document.getElementById ('ID').scrollIntoView ().
+
     function redirectWithScroll(id){
         sessionStorage.setItem('ScrollTo', id)
         location.href="Projects"

@@ -1,0 +1,20 @@
+﻿@page
+@model PlsWork.Pages.ContactModel
+@{
+}
+<div id="plsCenter">
+<form method="post" class="contact-form col-12 form-outline">
+    <div class="text-left">
+    <lable class="form-label" for="name">Name</lable>
+    <input class="col-md-4 col-sm-6" id="name" type="text" />
+    <br />
+    <lable class="form-label" for="email">E-mail </lable>
+    <input class="col-md-4 col-sm-6" id="email" type="email" />
+    </div>
+    <br />
+    <lable class="form-label" for="textarea">Message</lable>
+    <textarea id="textarea" class="form-control w-100" rows="6" maxlength="250" spellcheck="false"></textarea>
+    <br />
+    <input id="submit" type="submit" class="btn btn-primary" value="Done" />
+</form>
+</div>

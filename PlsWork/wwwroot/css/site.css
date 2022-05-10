@@ -1,37 +1,72 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     margin-bottom: 60px;
-    background-color: #CEE5F2;
+    background-color: #0E1220;
 }
+
 .nav-color {
-    background-color: #7C98B3;
+    background-color: #1E1E24;
 }
-.nav-link{
-    color:#FFFFFF !important;
+
+.nav-link {
+    color: #FFFFFF !important;
 }
+
 .smooth-box {
-    background-color: #ACCBE1;
+    background-color: #FFCF99;
     padding: 3%;
-    border: solid 2px #637081;
+    border: solid 2px #92140C;
     border-radius: 25px 25px 25px 25px;
     margin: 1%
 }
-.box-n-box {
-    border: solid 2px #637081;
+
+body h3, h1 {
+    color: white;
+}
+
+.contact-form {
+    text-align:center;
+    color: black;
+    background-color: #FFCF99;
+    padding: 3%;
+    border: solid 2px #92140C;
     border-radius: 25px 25px 25px 25px;
     margin: 1%
+}
+
+    .contact-form p {
+        margin-top: 1em;
+        margin-bottom: 0.2em;
+    }
+
+    .contact-form input{
+        margin-top:1em;
+    }
+    .contact-form input, textarea {
+        border: solid #92140C 2px !important;
+        border-radius: 5px 5px 5px 5px !important;
+    }
+#submit {
+    border: none;
+}
+@media only screen and (min-width: 770px){
+
+#plsCenter  {
+    width: 50%;
+    margin: 0 auto;
+}
 }
