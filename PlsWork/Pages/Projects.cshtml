@@ -3,57 +3,55 @@
 @{
     ViewData["Title"] = "Projects";
 }
-<div onpageshow="scrollToElement()">
-    <div class="text-center mt-5 mb-1">
-        <img id="dot-net" src="/pics/icons/dot-net.png" height="100" width="100" />
-        <div class="smooth-box">
-                <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br /><br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-        </div>
+<div class="text-center mt-5 mb-1">
+    <img id="dot-net" src="/pics/icons/dot-net.png" height="100" width="100" />
+    <div class="smooth-box">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br /><br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
-    <div class="text-center mt-5 mb-1">
-        <img id="www" src="/pics/icons/www.png" height="100" width="100" />
-        <div class="smooth-box">
-            <a href="/small-pages/vistkort.html">visitkort</a>
-            <br />
-            <a href="/small-pages/facebook_ad.html">facebook ad</a>
-            <br />
-            <br />
-            <br /><br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-        </div>
+</div>
+<div class="text-center mt-5 mb-1">
+    <img id="www" src="/pics/icons/www.png" height="100" width="100" />
+    <div class="smooth-box">
+        <a href="/small-pages/vistkort.html" target="_blank">visitkort</a>
+        <br />
+        <a href="/small-pages/facebook_ad.html" target="_blank">facebook ad</a>
+        <br />
+        <br />
+        <br /><br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
-    <div class="text-center mt-5 mb-1">
-        <img id="py" src="/pics/icons/py.png" height="100" width="100" />
-        <div class="smooth-box">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br /><br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-        </div>
+</div>
+<div class="text-center mt-5 mb-1">
+    <img id="py" src="/pics/icons/py.png" height="100" width="100" />
+    <div class="smooth-box">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br /><br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
 </div>
 <script type="text/javascript">
-    var element = sessionStorage.getItem('ScrollTo')
-    document.getElementById(element).scrollIntoView({behavior: 'smooth'})
+        var element=sessionStorage.getItem('ScrollTo')
+        document.getElementById(element).scrollIntoView({behavior: 'smooth'})
 </script>
